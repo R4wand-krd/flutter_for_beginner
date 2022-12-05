@@ -32,7 +32,7 @@ class _MyAppBodyState extends State<MyAppBody> {
   int _couter = 0;
 
   final Uri _url =
-      Uri.parse('https://github.com/R4wand-krd/test-app-for-beginner');
+      Uri.parse('https://github.com/R4wand-krd/flutter_for_beginner');
 
   Future<void> _launchUrl() async {
     if (!await launchUrl(_url)) {
